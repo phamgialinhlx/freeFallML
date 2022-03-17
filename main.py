@@ -20,7 +20,7 @@ if __name__ == "__main__":
 
     degree = []
     theta = []
-    rmse = []
+    rsquared = []
 
     # # print(createBatch([1,2,3,4,5,6,7,8,9], [1,2,3,4,5,6,7,8,9], 1))
     for i in range(11):
@@ -28,9 +28,9 @@ if __name__ == "__main__":
         predict = pr.predict(Xtest)
         degree.append(i)
         theta.append(pr.theta)
-        rmse.append(r_squared(Ytest, predict))
+        rsquared.append(r_squared(Ytest, predict))
 
-    df = pd.DataFrame({"Degree": degree, "Theta": theta, "RMSE": rmse})
+    df = pd.DataFrame({"Degree": degree, "Theta": theta, "RSQUARED": rsquared})
     df.to_csv("./result.csv", index=False)
 
     # pr = PolynomialRegression(Xtrain, Ytrain, 2, alpha, epoch, 1)
