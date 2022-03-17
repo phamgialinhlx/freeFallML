@@ -4,7 +4,7 @@
 
 Ném quả bóng lên cao theo hướng thẳng đứng, vận tốc ban đầu là $v_0$.
 
-$$ y_t = v_0 t - \frac 1 2 gt^2 $$
+<img src="https://render.githubusercontent.com/render/math?math=y_t = v_0 t - \frac 1 2 gt^2">
 
 Bài toán Học máy: Tìm mô hình mô tả chuyển động trên?
 
@@ -28,6 +28,6 @@ File test: [`test.csv`](./data/test.csv)
 - Tham số  đầu vào: $$ d = 0,1,2,3,4,5,6,7,8,9,10 $$
 ## Số liệu từng lần chạy
 
-$$
-R^2 = 1 - \frac{\sum_{i=1}^n (y_i-f(t_i))^2}{\sum_{i=1}^n (y_i-\overline{y})^2}
-$$
+
+<img src="https://render.githubusercontent.com/render/math?math=R^2 = 1 - \frac{\sum_{i=1}^n (y_i-f(t_i))^2}{\sum_{i=1}^n (y_i-\overline{y})^2}">
+
