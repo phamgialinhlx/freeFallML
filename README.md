@@ -27,6 +27,7 @@ File test: [`test.csv`](./data/test.csv)
     - **Learning rate**: 0.01
 - Tham số  đầu vào: $$ d = 0,1,2,3,4,5,6,7,8,9,10 $$
 ## Số liệu từng lần chạy
+
 $$
 R^2 = 1 - \frac{\sum_{i=1}^n (y_i-f(t_i))^2}{\sum_{i=1}^n (y_i-\overline{y})^2}
 $$
